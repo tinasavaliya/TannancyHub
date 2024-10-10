@@ -1,0 +1,86 @@
+echo '<pre>';
+        print_r($user);
+        echo '</pre>';
+ <div className="d-flex align-items-center">
+                <span className="property-listning property fw-normal font-nunito fs-16">
+                  About us
+                </span>
+              </div>
+              <h3 className="text-start fw-bold Poppins text-capitalize title-padding fs-45 text-black">
+                The Leading Real Estate
+                <span className="d-md-block">
+                  Rental Marketplace<b className="text-orange">.</b>
+                </span>
+              </h3>        
+d-flex align-items-center justify-content-center
+fill="#ff5a3c" width="60px" height="60px"
+.home_contact-wrappper{
+  background-image:url(../images/home-quarter-theme.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+//swiper installation
+ >>npm install swiper
+
+ //add swiper in component
+
+ import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// Import Swiper core and required modules
+import { Navigation, Pagination } from 'swiper/modules';
+
+// Install Swiper modules
+// import { Navigation, Pagination } from 'swiper/modules';
+
+const HomeFeedback = () => {
+  return (
+   
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={3}
+        navigation
+        pagination={{ clickable: true }}
+        modules={[Navigation, Pagination]}
+      >
+        <SwiperSlide>
+          <img src="https://via.placeholder.com/600x400" alt="Slide 1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://via.placeholder.com/600x400" alt="Slide 2" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://via.placeholder.com/600x400" alt="Slide 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://via.placeholder.com/600x400" alt="Slide 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://via.placeholder.com/600x400" alt="Slide 3" />
+        </SwiperSlide>
+      </Swiper>
+    );
+};
+
+export default HomeFeedback;
+//page title
+<h1 className="text-center fw-bold Poppins text-capitalize title-padding fs-45 text-black">Property By Categories</h1>
+//title
+<h3 className="fs-22 text-start fw-semibold Poppins text-capitalize title-padding text-black text-hover-orange"></h3>
+sub-title
+<p className="text-start fw-medium font-nunito text-capitalize fs-12 text-lightGray"></p>
+
+//btn-orange
+ <div className="orange-main d-flex align-items-center justify-content-center mt-md-4 mt-3">
+            <a href="#" className="btn-orange">
+              make an enquiry
+            </a>
+          </div> 
+
+        //className
+        light-shadow
+        
